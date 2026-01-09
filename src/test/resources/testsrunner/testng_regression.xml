@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Regression Test Suite" verbose="4" >
+
+
+	<listeners>
+		<listener class-name="com.aventstack.chaintest.plugins.ChainTestListener" />
+	</listeners>
+
+
+	<test name="Go Rest API Test - Create a User">
+		<classes>
+			<class name="com.qa.api.gorest.tests.Createausertest" />
+		</classes>
+	</test>
+
+	<test name="Go Rest API Test - Create User with deserializtion">
+		<classes>
+			<class name="com.qa.api.gorest.tests.CreateauserwithDesrialization" />
+		</classes>
+	</test>
+
+	 <test name="Go Rest API Test - Get a User">
+		<classes>
+			<class name="com.qa.api.gorest.tests.Getausertest" />
+		</classes>
+	</test>
+
+	<test name="Go Rest API Test - Update a User">
+		<classes>
+			<class name="com.qa.api.gorest.tests.Updateausertest" />
+		</classes>
+	</test>
+
+	<test name="Go Rest API Test - Delete a User">
+		<classes>
+			<class
+				name="com.qa.api.gorest.tests.Deleteausertest" />
+		</classes>
+	</test>
+
+
+
+
+
+	<!-- <test name="Product API Test - Get Product">
+		<classes>
+			<class name="com.qa.api.products.tests.GetProductTest" />
+		</classes>
+	</test>
+
+	<test name="Product API Test - Get Product With Json Path">
+		<classes>
+			<class
+				name="com.qa.api.products.tests.GetProductsWithJsonPathTest" />
+		</classes>
+	</test>
+
+
+
+
+	<test name="Schema Test">
+		<classes>
+			<class name="com.qa.api.schema.tests.GoRestAPISchemaTest" />
+		</classes>
+	</test>
+
+
+
+
+	<test name="Basic Auth API Test">
+		<classes>
+			<class name="com.qa.api.auth.tests.BasicAuthAPITest" />
+		</classes>
+	</test>
+	<test name="Spotify OAuth API Test">
+		<classes>
+			<class name="com.qa.api.spotify.tests.SpotifyAPITest" />
+		</classes>
+	</test>
+
+	<test name="Google Gemini LLM Test">
+		<classes>
+			<class name="com.qa.api.geminiapi.tests.GoogleGeminiPromptTest" />
+		</classes>
+	</test>  -->
+
+
+</suite>	
