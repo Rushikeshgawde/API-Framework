@@ -21,7 +21,7 @@ public class Createausertest extends BaseTest{
 	public void createausertest() {
 		
         String userjson = "{\"name\": \"Tom anderson\",\r\n"	
-                   		+ "        \"email\": \"tom31@wilderman-rohan.example\",\r\n"
+                   		+ "        \"email\": \"tom58@wilderman-rohan.example\",\r\n"
 	                 	+ "        \"gender\": \"male\",\r\n"
 	                	+ "        \"status\": \"active\"}";
 		
