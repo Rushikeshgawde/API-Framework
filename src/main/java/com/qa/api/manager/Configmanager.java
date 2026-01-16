@@ -11,7 +11,7 @@ public class Configmanager {
   static {	 
 	  
 //	  mvn clean install -Denv = "qa"
-	  String envName = System.getProperty("env" , "qa");
+	  String envName = System.getProperty("env" , "prod");
 	  System.out.println("Running the test cases on: "+ envName);
 	  String Filename = "config_"+envName+".properties";
 	  
